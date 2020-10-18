@@ -14,7 +14,7 @@ Required to build:
 * Sass
 * CoffeeScript 2.2.4
 
-## To setup your Linux environment:
+## To setup your Debian Linux environment:
 ```
 sudo apt-get install ruby
 sudo gem install slim
@@ -25,12 +25,12 @@ sudo apt-get install nodejs-legacy
 sudo apt-get install npm
 sudo npm install -g coffeescript
 sudo npm install -g coffeelint
-Run compile.sh
+./compile.sh
 ```
 
 ## To setup your Windows environment (TODO):
 ```
-Install MinGW/MSYS/Cygwin
+Install MinGW/MSYS/Cygwin/Debian or Ubuntu WSL
 Install Ruby
 Install Slim
 Install Sass
@@ -39,10 +39,10 @@ Install CoffeeScript
 Install NodeJS
 Install NPM
 Install Java (Security is an issue on Windows, be cautious [12-30-2015])
-Run compile.sh in MinGW/MSYS/Cygwin
+Run compile.sh in MinGW/MSYS/Cygwin/WSL
 ```
 
-The script is known to work on Mac OS X 10.13.4 and Ubuntu 14.04.3 LTS/15.10 64-bit. It should work on any platforms that have a Bash shell.
+The script is known to work on Mac OS X 10.13.4, Windows 10, and Ubuntu 20.04 LTS 64-bit. It should work on any platforms that have a Bash shell.
 
 # About the emulator
 
